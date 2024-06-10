@@ -21,7 +21,6 @@ const Banner = () => {
                     isValid={isValid}
                     handleEmailChange={handleEmailChange}
                     placeholderText="email@example.com"
-                    borderStyle="border-[1px] border-very_dark_blue rounded-[0.2em]"
                 />
                 <span className={`${isValid ? "hidden" : "block"} absolute text-xs left-0 bottom-[46px] text-light_gray`}>Please check your Email</span>
                 <ButtonCTA

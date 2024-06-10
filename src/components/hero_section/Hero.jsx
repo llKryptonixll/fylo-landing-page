@@ -26,7 +26,6 @@ const Hero = () => {
               isValid={isValid}
               handleEmailChange={handleEmailChange}
               placeholderText="Enter your email..."
-              borderStyle="border-[1px] border-very_dark_blue rounded-[0.2em]"
             />
             <span className={`${isValid ? "hidden" : "block"} absolute text-xs sm:-left-[1em] left-0 sm:bottom-[-20px] bottom-[46px]  text-red-500`}>Please check your Email</span>
             <ButtonCTA
